@@ -1,0 +1,6 @@
+/spark-data-skew-demo.zip
+/.idea/
+/images/
+/spark_logs/
+/target/
+.gitignore
