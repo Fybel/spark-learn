@@ -8,7 +8,7 @@ public class ModifyMDFile {
     public static void main(String[] args){
         List<String> lines = new ArrayList<>();
         File file = new File("E:\\game\\java_learn\\java\\spark-data-skew-demo\\README.md");
-        File newFile = new File("E:\\game\\java_learn\\java\\spark-data-skew-demo\\README_1.md");
+        File newFile = new File("E:\\game\\java_learn\\java\\spark-data-skew-demo\\README.md");
         try(BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(newFile))){
             String line;
