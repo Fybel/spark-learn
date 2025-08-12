@@ -1,0 +1,1 @@
+restore spark event log
